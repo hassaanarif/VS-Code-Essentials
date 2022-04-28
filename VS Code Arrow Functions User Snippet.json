@@ -1,0 +1,25 @@
+{
+  "Arrow Function": {
+    "prefix": ["arr"],
+    "body": ["let ${1:functionName} = (${2}) => { $0 }"],
+    "description": "Arrow Function"
+  },
+
+  "Async Arrow Function": {
+    "prefix": ["arra"],
+    "body": ["let ${1:functionName} = async (${2:argument}) => { $0 }"],
+    "description": "Async Arrow Function"
+  },
+
+  "Anonymous Arrow Function": {
+    "prefix": ["arran"],
+    "body": ["(${1}) => { $0 }"],
+    "description": "Anonymous Arrow Function"
+  },
+
+  "Async Anonymous Arrow Function": {
+    "prefix": ["arrana"],
+    "body": ["async (${1}) => { $0 }"],
+    "description": "Async Anonymous Arrow Function"
+  }
+}
